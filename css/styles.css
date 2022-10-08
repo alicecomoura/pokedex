@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+main {
+  margin: auto;
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pokedex__title {
+  font-size: 3.5rem;
+  letter-spacing: 1.5rem;
+  color: rgba(255, 0, 0, 0.815);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.pokemons__box {
+  margin: 5rem 0;
+}
+
+.pokemon__image__box {
+  background: rgb(238, 238, 238);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 2rem;
+}
+
+.pokemon__image {
+  width: 50%;
+}
+
+.pokemon__name__box {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.pokemon__id { 
+  font-weight: 600;
+}
+
+input {
+  padding: 1rem 0.8rem;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.781);
+} 
+
+.button__box {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 5rem;
+}
+
+.button__box button {
+  width: 50%;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.button__box button img {
+  width: 15px;
+}
+
+.button__box button:hover {
+  background: rgba(255, 0, 0, 0.815);
+  cursor: pointer;
+  font-weight: 600;
+}

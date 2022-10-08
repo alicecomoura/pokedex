@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script defer src="js/script.js"></script>
+
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="pokedex__title">Pokédex</h1>
+
+      <div class="pokemons__box">
+        <div class="pokemon__image__box">
+          <img src="" class="pokemon__image" />
+        </div>
+        
+        <div class="pokemon__name__box">
+          <span class="pokemon__id"></span>
+          <span class="pokemon__name"></span>
+        </div>
+      </div>
+
+      <form class="form">
+        <input type="search" placeholder="Digite o id ou nome" class="input" />
+
+        <div class="button__box">
+          <button class="button__prev">
+            <img src="https://cdn-icons-png.flaticon.com/512/271/271218.png" alt="Seta para o Pokemon anterior"/>
+            Anterior
+          </button>
+          <button class="button__next">
+            Próximo
+            <img src="https://cdn-icons-png.flaticon.com/512/271/271226.png" alt="Seta para o próximo Pokemon"/>
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
